@@ -1,5 +1,4 @@
-// This file defines the API endpoints. It exports a function `get_balance` that takes a wallet address as a parameter and returns the current SOL balance in lamports and optionally in SOL.
-
+// This file defines the API endpoints. It exports a function `get_balance.
 use axum::{
     extract::Path,
     response::Json,
