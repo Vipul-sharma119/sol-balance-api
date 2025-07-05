@@ -12,7 +12,7 @@ mod types;
 async fn main() {
     let app = Router::new()
         .route("/balance/:address", get(api::get_balance));
-
+/// 
     let addr = SocketAddr::from(([127, 0, 0, 1], 3000));
     println!("Listening on {}", addr);
 
